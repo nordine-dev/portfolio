@@ -47,7 +47,7 @@ export default function Footer() {
         {/* Contact & Social */}
         <div>
           <h2 className="text-xl font-bold mb-4 text-white">Contact</h2>
-          <p>Email:noureddinebachikh.com</p>
+          <p>Email:noureddine.com</p>
           <p>Phone: +212 773 837119</p>
 
           {/* Social Icons */}
