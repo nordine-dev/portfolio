@@ -45,7 +45,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-[#005782]">
+    <section className="relative w-full  h-screen  overflow-hidden bg-[#005782]">
       {/* Dynamic Gradient Background */}
       <div
         ref={bgRef}
