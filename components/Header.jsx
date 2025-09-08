@@ -33,7 +33,7 @@ export default function Header() {
       gsap.fromTo(
         linksRef.current,
         { x: -20, opacity: 0 },
-        { x: 0, opacity: 1, duration: 0.4, stagger: 0.1, ease: "power3.out" }
+        { x: 0, opacity: 1, duration: 0.6, stagger: 0.1, ease: "power3.out" }
       );
     } else {
       gsap.to(sidebarRef.current, {
@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <header className="fixed w-full bg-white dark:bg-gray-900 shadow-md z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
         <h1 className="text-xl font-bold text-gray-900 dark:text-white">
           Logo
         </h1>
