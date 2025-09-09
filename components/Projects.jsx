@@ -56,7 +56,7 @@ export default function Projects() {
       ? projects
       : projects.filter((p) => p.category === activeCategory);
 
-  // Scroll animation فقط عند النزول للسكشن
+
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
@@ -78,7 +78,7 @@ export default function Projects() {
     });
 
     return () => ctx.revert();
-  }, []); // ⚠️ dependencies فارغة → animation يعمل مرة واحدة فقط
+  }, []); 
 
   return (
     <section
@@ -86,7 +86,7 @@ export default function Projects() {
       className="bg-gray-950 text-white py-20 px-6 md:px-12"
     >
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-        🚀 My Projects
+        Projects
       </h2>
 
       {/* Categories */}
