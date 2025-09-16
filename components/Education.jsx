@@ -17,19 +17,7 @@ export default function Education() {
       school: "Code Academy",
       year: "2021",
       desc: "Hands-on training with React, Next.js, Node.js, and MongoDB.",
-    },
-    {
-      title: "Front-End Development",
-      school: "Online Courses",
-      year: "2022",
-      desc: "Specialized in building responsive websites using React and Tailwind CSS.",
-    },
-    {
-      title: "Continuous Learning",
-      school: "Self-Learning",
-      year: "Ongoing",
-      desc: "Always keeping up-to-date with the latest technologies in software development.",
-    },
+    }
   ];
 
   useEffect(() => {
@@ -56,9 +44,7 @@ export default function Education() {
         <div className="relative border-l-4 border-white pl-8">
           {educationData.map((edu, index) => (
             <div key={index} className="edu-item mb-12 relative group">
-              {/* الدائرة على الخط */}
               <div className="absolute -left-[26px] top-1 w-6 h-6 rounded-full bg-white border-4 border-gray-900 group-hover:scale-125 transition-transform" />
-              {/* البطاقة */}
               <div className="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-white/30 transition">
                 <h3 className="text-xl font-semibold text-indigo-300">
                   {edu.title}

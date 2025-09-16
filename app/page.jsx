@@ -6,6 +6,8 @@ import Projects from "../components/Projects";
 import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Certifications from "../components/Certifications";
+import Blog from "../components/Blog";
+import Contact from "../components/Contact";
 
 
 export default function Home() {
@@ -19,6 +21,8 @@ export default function Home() {
         <Experience/>
         <Education/>
         <Certifications/>
+        <Blog/>
+        <Contact/>
       </div>
       <Footer/>
     </div>

@@ -5,7 +5,6 @@ import gsap from "gsap";
 export default function Experience() {
   const sectionRef = useRef(null);
 
-  // بيانات الخبرات
   const experienceData = [
     {
       title: "Front-End Developer",
@@ -19,18 +18,7 @@ export default function Experience() {
       year: "2021",
       desc: "Worked on web apps using Node.js, Express, and MongoDB with a React front-end.",
     },
-    {
-      title: "Freelance Web Developer",
-      company: "Self-Employed",
-      year: "2019 - 2021",
-      desc: "Built websites for small businesses using WordPress and custom JavaScript solutions.",
-    },
-    {
-      title: "IT Support Assistant",
-      company: "University of Example",
-      year: "2018 - 2019",
-      desc: "Provided technical support and maintained computer labs and software installations.",
-    },
+
   ];
 
   useEffect(() => {
@@ -57,9 +45,7 @@ export default function Experience() {
         <div className="relative border-l-4 border-white pl-8">
           {experienceData.map((exp, index) => (
             <div key={index} className="exp-item mb-12 relative group">
-              {/* الدائرة على الخط */}
               <div className="absolute -left-[26px] top-1 w-6 h-6 rounded-full bg-white border-4 border-gray-900 group-hover:scale-125 transition-transform" />
-              {/* البطاقة */}
               <div className="bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-white/30 transition">
                 <h3 className="text-xl font-semibold text-indigo-300">
                   {exp.title}
