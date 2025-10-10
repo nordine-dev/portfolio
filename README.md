@@ -1,4 +1,4 @@
-# Nordin Portfolio
+# Portfolio
 
 Welcome! This is my personal portfolio website, showcasing my projects and experience. The site features a modern, responsive design with interactive animations and 3D content.
 
